@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.post {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 500px;
+  overflow: hidden;
+}
+
+.post-image {
+  position: relative;
+}
+
+.post-image img {
+  width: 100%;
+  display: block;
+}
+
+.menu-dots {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-options {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.post-content {
+  padding: 10px 15px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.post-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.comment-section {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.comment-section input {
+  width: 70%;
+  padding: 5px;
+}
+
+.comment-section button {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+#commentList {
+  margin-top: 10px;
+}

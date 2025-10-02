@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Facebook Post</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="post">
+    <!-- Post Image -->
+    <div class="post-image">
+      <img src="https://via.placeholder.com/500x300" alt="Post Image">
+      <div class="menu-dots">⋮</div>
+      <div class="menu-options hidden">
+        <button id="saveBtn">Save Photo</button>
+      </div>
+    </div>
+
+    <!-- Post Content -->
+    <div class="post-content">
+      <p class="caption">This is my first Facebook-style post 🚀</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="post-actions">
+      <button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
+      <button id="commentBtn">💬 Comment</button>
+      <button id="shareBtn">↗️ Share</button>
+    </div>
+
+    <!-- Comment Section -->
+    <div class="comment-section hidden">
+      <input type="text" id="commentInput" placeholder="Write a comment...">
+      <button id="addComment">Post</button>
+      <div id="commentList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
