@@ -39,7 +39,7 @@ menuDots.addEventListener("click", () => {
   menuOptions.classList.toggle("hidden");
 });
 
-// Save Photo
+
 const saveBtn = document.getElementById("saveBtn");
 saveBtn.addEventListener("click", () => {
   alert("Photo saved to gallery (Demo)!");
